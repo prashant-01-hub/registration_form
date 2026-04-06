@@ -1,0 +1,17 @@
+# registration_form
+registration of user
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+</head>
+<body>
+  <h2>Register</h2>
+  <form action="http://localhost:3000/register" method="POST">
+    <input type="text" name="username" placeholder="Username" required /><br><br>
+    <input type="email" name="email" placeholder="Email" required /><br><br>
+    <input type="password" name="password" placeholder="Password" required /><br><br>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
